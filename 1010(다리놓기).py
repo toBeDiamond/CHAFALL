@@ -6,11 +6,11 @@ for x in range(t):
     m_list = list(range(1, m+1))
     
     #mCn 
-    top = 1                 #분모part
+    top = 1                 #분자part
     for ml in m_list[m-n:]: 
         top*=ml
     
-    bottom = 1              #분자part
+    bottom = 1              #분모part
     for nl in n_list:
         bottom*=nl
     
